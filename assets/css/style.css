@@ -198,26 +198,36 @@ header {
 .main-card-destination {
     display: flex;
     justify-content: center;
-    justify-content: space-around;
+    margin-top: 50px;
 }
 
-.img-destination {
-    box-shadow: -1px 0px 20px 0px #0000001a;
-    border-radius:0 0 15px 15px;
+.card-destination {
+    margin: 0px 25px 0px 25px;
 }
 
+.destination {
+    box-shadow: 0px 13px 20px 0px #0000001a;;
+    border-radius:0 0 25px 25px;
+}
 
 
 .information-trip {
     background-color: white;
     padding: 15px;
     position: relative;
-    top: -142px;
-    border-radius:0 0 15px 15px;
+    top: -141px;
+    border-radius: 0 0 25px 25px;
 }
 .destination-price {
     display: flex;
     justify-content: space-between;
+
+    .city {
+        color: #5E6282;
+    }
+    .price {
+        color: #5E6282;
+    }
 }
 
 .time-trip{
@@ -226,9 +236,6 @@ header {
 
     .time {
         margin-left: 20px;
+        color: #5E6282;
     }
 }
-
-
-
-
