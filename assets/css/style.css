@@ -224,12 +224,14 @@ header {
 
     .city {
         color: #5E6282;
+        font-weight: 600;
     }
     .price {
         color: #5E6282;
+        font-weight: 600;
+
     }
 }
-
 .time-trip{
     display: flex;
     align-items: center;
@@ -237,5 +239,9 @@ header {
     .time {
         margin-left: 20px;
         color: #5E6282;
+        font-weight: 500;
+
     }
 }
+
+
