@@ -129,7 +129,7 @@ header {
 .teton {
     position: absolute;
     /* background-image: url("/assets/img/bcg_img/etoile.png"); */
-    right: 100px;
+    right: 50px;
     z-index: -1;
 }
 
@@ -244,4 +244,65 @@ header {
     }
 }
 
+
+.big-div-book {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin: 0px 300px; */
+}
+
+.book-side {
+    display: flex;
+    flex-direction: column;
+}
+
+.small-text-book {
+    color: #5E6282;
+    font-weight: 600;
+}
+
+
+.book-title {
+    font-family: "Volkhov", serif;
+    font-size: 50px;
+    margin: 0;
+    color: #14183E;
+    text-align: start;
+}
+
+.case-book {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.book-case {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.book-text {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    justify-content: center;
+    .text-title {
+        font-family: "Poppins", sans-serif;
+        font-weight: 700;
+        color: #5E6282;
+        margin: 0;
+    }
+    .text-book {
+        color: #5E6282;
+        font-family: "Poppins", sans-serif;
+        margin: 0;
+    }
+}
+
+.div-card-travel {
+    padding: 20px;
+    background-color: white;
+}
 
