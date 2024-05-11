@@ -245,6 +245,7 @@ header {
 
 
 .big-div-book {
+    position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -328,7 +329,7 @@ header {
 .last-line {
     display: flex;
     justify-content: space-between;
-    margin: 20px 0;
+    margin: 20px 0 10PX 0;
     div {
         display: flex;
         p {
@@ -340,23 +341,55 @@ header {
 }
 
 .mini-card {
-    position: absolute;
+    position: relative;
     display: flex;
     background-color: white;
     padding: 15px;
-    box-shadow: 0px 20px 20px 0px #4343432b;
+    box-shadow: -1px 4px 20px 0px #4343432b;
     border-radius: 20px;
     gap: 20px;
-    right: 200px;
+    right: 155px;
+    top: 98px;
+
+    .profil {
+        margin-top: 10px;
+    }
 }
 
 .loadbar {
-    background-color: grey;
-    height: 10px;
-    width: 220px;
+    background-color: #dcdcdc;
+    height: 8px;
+    width: 150px;
+    border-radius: 10px;
+    margin: 10px 0;
 }
 .loaded {
-    background-color: purple;
-    height: 10px;
+    background-color: #8A79DF;
+    height: 8px;
     width: 40%;
+    border-radius: 10px;
+}
+.percent-purple {
+    color: #8A79DF;
+}
+
+.mini-card-text {
+    .sm-tr-title {
+        color: #84829A;
+        font-weight: 500;
+        font-size: 14px;
+        margin: 0;
+    }
+    .tripto {
+        font-size: 16px;
+        font-weight: 700;
+        letter-spacing: 0.1px;
+        margin: 10px 0;
+    }
+    p
+    {
+        font-size: 14px;
+        font-weight: 600;
+        margin: 10px 0;
+    }
 }
