@@ -129,7 +129,6 @@ header {
 
 .teton {
     position: absolute;
-    /* background-image: url("/assets/img/bcg_img/etoile.png"); */
     right: 50px;
     z-index: -1;
 }
@@ -509,13 +508,19 @@ header {
 .div-newsletter {
     display: flex;
     justify-content: center;
+
+    .teton-2 {
+        position: absolute;
+        right: 75px;
+        z-index: -1;
+        bottom: 235px;    }
 }
 
 .sub-newsletter {
     position: relative;
     background-color: #dfd7f939;
     padding: 50px;
-    width: 60%;
+    width: 80%;
     margin-top: 100px;
     border-radius: 129px 20px 20px 20px;
     div {
@@ -545,6 +550,7 @@ header {
             width: 421px;
             border-radius: 10px;
             margin: 0px 5px;
+            font-size: 16px;
         }
         button {
             width: 180px;
@@ -558,4 +564,52 @@ header {
             cursor: pointer;
         }
     }
+}
+
+footer {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 150px;
+    .sous-footer {
+        display: flex;
+        gap: 124px;
+    }
+}
+
+.footer-st-case {
+    div {
+        h1 {
+            font-family: "Poppins", sans-serif;
+            font-weight: 500;
+            font-size: 40px;
+            color: #181E4B;
+            margin: 15px 0;
+        }
+        p{
+            margin: 0;
+        }
+    }
+}
+
+.footer-categorie {
+    display: flex;  
+    gap: 124px;
+    div {
+        h3 {
+            font-family: "Poppins", sans-serif;
+            font-weight: 500;
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+            li {
+                margin: 10px 0;
+            }
+        }
+    }
+} 
+
+.social {
+    display: flex;
+    align-items: center;
 }
